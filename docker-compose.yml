@@ -1,0 +1,13 @@
+version: '2'
+services:
+  jupyter:
+    image: dev
+    volumes:
+      - "~:/home/jovyan/work/mycomputer"
+    ports:
+      - "127.0.0.1:8888:8888"
+    restart: always
+    environment:
+      USER: root
+      USER_ID: 0
+    command: jupyter notebook
