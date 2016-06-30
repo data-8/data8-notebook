@@ -1,7 +1,7 @@
 version: '2'
 services:
   jupyter:
-    image: dev
+    image: data8/data8-notebook
     volumes:
       - "~:/home/jovyan/work/mycomputer"
     ports:
