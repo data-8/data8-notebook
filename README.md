@@ -1,7 +1,7 @@
 # data8-notebook
 Docker image for testing data-8/systemuser
 
-This docker image is based on [data-8/systemuser](https://github.com/data-8/systemuser). It enables the user to test software installations in an environment nearly identical to the one on https://data8.berkeley.edu. This is not intended to act as a substitute for student's data8 server accounts! The server exists so that students don't have to follow any of these steps. Later DSEP courses may eventually teach this kind of procedure to students.
+This docker image is based on [data-8/systemuser](https://github.com/data-8/systemuser). It enables the user, ostensibly DS8 instructors or GSIs, to test modifications in an environment nearly identical to the one on https://data8.berkeley.edu. This is *not* intended to act as a substitute for student's data8 server accounts. The server exists so that students don't have to follow any of these steps. Later DSEP courses may eventually teach this kind of procedure to students.
 
 The basics to using this are 1) install docker, 2) download the course's docker image, then 3) run the image.
 
