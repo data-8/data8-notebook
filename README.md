@@ -6,7 +6,7 @@ This docker image is based on [data-8/systemuser](https://github.com/data-8/syst
 The basics to using this are 1) install docker, 2) download the course's docker image, then 3) run the image.
 
 ## Install Docker
-Install [Docker for Mac (Beta)](https://download.docker.com/mac/beta/Docker.dmg). The requirements are:
+Install [Docker](https://docs.docker.com/engine/installation/). The requirements are:
  - Mac must be from 2010 or newer with at least 4GB RAM
  - OS X 10.10.3 Yosemite or newer
  - VirtualBox prior to version 4.3.30 must NOT be installed
