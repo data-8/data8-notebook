@@ -1,4 +1,4 @@
-FROM data8/systemuser
+FROM data8/systemuser:nodrive
 ADD jupyter_notebook_config.py /root/.jupyter/
 
 # Remote our data8-specific OAuth client ID
