@@ -17,22 +17,14 @@ The Mac requirements are:
 
 Download and install [Docker](https://www.docker.com/products/docker#/mac).
 
-### Download Docker Image
-Open Applications > Utilities > Terminal and run `docker pull data8/data8-notebook`. This will take a while.
-
-### Download Docker Compose File
-In a terminal window, run:
+### Download and run Docker Image
+Open Applications > Utilities > Terminal and run
 ```
+docker pull data8/data8-notebook
 curl -O https://raw.githubusercontent.com/data-8/data8-notebook/master/docker-compose.yml
-```
-
-### Run the Container
-In a terminal window, run:
-```
 docker-compose up
 ```
-
-Once this is running, open a web browser to http://localhost:8888.
+This will take a while. Once docker-compose is running, open a web browser to http://localhost:8888.
 
 ## Windows
 
@@ -47,7 +39,7 @@ Download and install [Docker](https://www.docker.com/products/docker#/windows).
 1. In the terminal window, run `docker pull data8/data8-notebook`. This will take a while.
 
 ### Download Docker Compose File
-Visit https://raw.githubusercontent.com/data-8/data8-notebook/master/docker-compose.yml and right-click in your browser window to `Save as...` the document.
+Right-click on this link, https://raw.githubusercontent.com/data-8/data8-notebook/master/docker-compose.yml, and `Save as...` the document.
 
 ### Run the Container
 In a terminal window, change directory to where you saved the docker-compose.yml file. For example `cd \Users\myname\Downloads`. You may need to rename the file, e.g. `rename docker-compose.yml.txt docker-compose.yml`.
