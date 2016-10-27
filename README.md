@@ -18,7 +18,7 @@ The Mac requirements are:
 Download and install [Docker](https://www.docker.com/products/docker#/mac).
 
 ### Download Docker Image
-Open Applications > Utilities > Terminal and run: `docker pull data8/data8-notebook`
+Open Applications > Utilities > Terminal and run `docker pull data8/data8-notebook`. This will take a while.
 
 ### Download Docker Compose File
 In a terminal window, run:
@@ -44,7 +44,7 @@ Download and install [Docker](https://www.docker.com/products/docker#/windows).
 
 ### Download Docker Image
 1. Type Windows-R and enter `cmd`. This starts a terminal window.
-1. In the terminal window, run: `docker pull data8/data8-notebook`
+1. In the terminal window, run `docker pull data8/data8-notebook`. This will take a while.
 
 ### Download Docker Compose File
 Visit https://raw.githubusercontent.com/data-8/data8-notebook/master/docker-compose.yml and right-click in your browser window to `Save as...` the document.
@@ -60,7 +60,7 @@ docker-compose up
 Once this is running, open a web browser to http://localhost:8888.
 
 ## Installing Software
-You can open a terminal window via New > Terminal, or invoke shell commands within a notebook by preceding them with an exclamation mark:
+You can open a Jupyter terminal window via New > Terminal, or invoke shell commands within a notebook by preceding them with an exclamation mark:
 
 ```
 !pip install somelibrary==1.0.0
