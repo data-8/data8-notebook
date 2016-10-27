@@ -39,17 +39,14 @@ Download and install [Docker](https://www.docker.com/products/docker#/windows).
 1. In the terminal window, run `docker pull data8/data8-notebook`. This will take a while.
 
 ### Download Docker Compose File
-Right-click on this link, https://raw.githubusercontent.com/data-8/data8-notebook/master/docker-compose.yml, and `Save as...` the document.
+Right-click on this link, https://raw.githubusercontent.com/data-8/data8-notebook/master/docker-compose.yml, and `Save link as...` the document.
 
 ### Run the Container
-In a terminal window, change directory to where you saved the docker-compose.yml file. For example `cd \Users\myname\Downloads`. You may need to rename the file, e.g. `rename docker-compose.yml.txt docker-compose.yml`.
-
-Then run:
+In a terminal window, change directory to where you saved the docker-compose.yml file. For example:
 ```
-docker-compose up
+cd \Users\myname\Downloads
 ```
-
-Once this is running, open a web browser to http://localhost:8888.
+Then run `docker-compose up` and open a web browser to http://localhost:8888.
 
 ## Installing Software
 You can open a Jupyter terminal window via New > Terminal, or invoke shell commands within a notebook by preceding them with an exclamation mark:
