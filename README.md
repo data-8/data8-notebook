@@ -5,22 +5,55 @@ This docker image is based on [data-8/systemuser](https://github.com/data-8/syst
 
 The basics to using this are 1) install docker, 2) download the course's docker image, then 3) run the image.
 
-## Install Docker
-Install [Docker](https://docs.docker.com/engine/installation/). The requirements are:
+
+
+## Mac
+
+### Install Docker
+The Mac requirements are:
  - Mac must be from 2010 or newer with at least 4GB RAM
  - OS X 10.10.3 Yosemite or newer
  - VirtualBox prior to version 4.3.30 must NOT be installed
 
-I have not tested this procedure on Docker for Windows (Beta).
+Download and install [Docker](https://www.docker.com/products/docker#/mac).
 
-## Download Docker Image
-In a terminal window, run: `docker pull data8/data8-notebook`
+### Download Docker Image
+Open Applications > Utilities > Terminal and run: `docker pull data8/data8-notebook`
 
-## Run the Container
+### Download Docker Compose File
 In a terminal window, run:
-
 ```
 curl -O https://raw.githubusercontent.com/data-8/data8-notebook/master/docker-compose.yml
+```
+
+### Run the Container
+In a terminal window, run:
+```
+docker-compose up
+```
+
+Once this is running, open a web browser to http://localhost:8888.
+
+## Windows
+
+### Install Docker
+The Windows requirements are:
+ - PC must be running Windows 10 Professional or Enterprise, 64-bit.
+
+Download and install [Docker](https://www.docker.com/products/docker#/windows).
+
+### Download Docker Image
+1. Type Windows-R and enter `cmd`. This starts a terminal window.
+1. In the terminal window, run: `docker pull data8/data8-notebook`
+
+### Download Docker Compose File
+Visit https://raw.githubusercontent.com/data-8/data8-notebook/master/docker-compose.yml and right-click in your browser window to `Save as...` the document.
+
+### Run the Container
+In a terminal window, change directory to where you saved the docker-compose.yml file. For example `cd \Users\myname\Downloads`. You may need to rename the file, e.g. `rename docker-compose.yml.txt docker-compose.yml`.
+
+Then run:
+```
 docker-compose up
 ```
 
